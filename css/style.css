@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@media screen and (min-width: 750px) {
+  .body-inner {
+    max-width: 750px;
+    box-shadow: 0 1px 20px rgb(0 0 0 / 30%);
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+img {
+  width: 100%;
+  margin-top: -1px; /*--隙間調整--*/
+}
+
+/* コンテンツの横幅 */
+/* ============================================ */
+.o-wrapper {
+  width: 100%;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* コンテンツの横幅 ここまで */
+/* ============================================ */
+
+/* CTAボタン */
+/* ============================================ */
+
+/* CTAボタン ここまで */
+/* ============================================ */
+
+/* footer */
+.site-footer {
+  text-align: center;
+  padding: 50px 50px;
+  font-size: 24px;
+  color: #555;
+  background-color: #fff;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  padding-bottom: 20px;
+}
+
+.footer-links a {
+  color: #555;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: opacity 0.2s;
+}
+
+.footer-links a:hover {
+  opacity: 0.7;
+}
+
+.footer-copy {
+  font-size: 22px;
+  color: #888;
+  padding-top: 50px;
+}
+/* footer ここまで */
+/* ============================================ */
